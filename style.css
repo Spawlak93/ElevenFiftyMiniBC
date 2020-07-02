@@ -1,0 +1,147 @@
+nav{
+    background-image: url(./Backgrounds/navbarbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    z-index: 1;
+}
+
+nav ul li {
+    text-align: center;
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-style: 'acme' sans-serif;
+}
+
+#brand {
+    float: left;
+}
+
+#brand .nav-link {
+    color: rgb(76, 233, 233);
+    font-size: 14pt;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+}
+
+
+
+#splash {
+    background-image: url(./Backgrounds/splashBack.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: black;
+    
+}
+
+#enter {
+    padding: 25vh;
+    color: rgb(4, 154, 255);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(76, 233, 233);
+}
+
+
+#home {
+    margin-top:50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 20vh;
+    padding-top: 3em;
+    background: url('./Backgrounds/home-header.jpg') center 10% no-repeat fixed;
+    background-size: cover;
+}
+
+.header-text {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1.header-text {
+    font-size: 34pt;
+}
+
+#content {
+    padding-top: 55px;
+    display: inline-block;
+}
+
+.content-pic-left {
+    width: 200px;
+    float: left;
+}
+
+.content-pic-right {
+    width: 400px;
+    float: right;
+}
+
+#puppy-pic {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8em;
+    padding-right: 5px;
+}
+
+#dogo-pic {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 8em;
+    padding-left: 5px;
+}
+
+#kitten-pic {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5em;
+    padding-right: 5px;
+}
+
+.blogContent {
+    margin-top: 55px;
+}
+
+#blogHeader {
+    text-align: center;
+}
+
+#kencentwt {
+    width: 30vw;
+    float: right;
+}
+
+#cutevid {
+    width: 50vw;
+    float: left;
+    padding-right:5px;
+}
+
+#contactbox{
+    text-align: right;
+    padding-right: 20vw;
+}
+
+.contactHeader {
+    margin-top: 55px;
+    text-align: center;
+}
